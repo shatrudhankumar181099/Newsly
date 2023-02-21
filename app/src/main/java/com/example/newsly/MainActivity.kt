@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
                     totalResults = news.totalResults
                     articles.addAll(news.articles)
                     adapter.notifyDataSetChanged()
-
                 }
             }
         })
